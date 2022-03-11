@@ -26,14 +26,6 @@ Package does not require any migrations
 
 ## Usage
 
-## Change log
-
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
-
 ## Security
 
 If you discover any security related issues, please email ed.arm.2000@gmail.com instead of using the issue tracker.
