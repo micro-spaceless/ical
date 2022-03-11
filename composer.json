@@ -34,13 +34,6 @@
             "MicroSpaceless\\Ical\\": "src"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "MicroSpaceless\\Ical\\Providers\\IcalServiceProvider"
-            ]
-        }
-    },
     "config": {
         "sort-packages": true
     }
