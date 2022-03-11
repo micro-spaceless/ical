@@ -10,13 +10,6 @@ Via Composer:
 composer require micro-spaceless/ical
 ```
 
-### Config
-Publish the config to change the default settings :
-
-```bash
-php artisan vendor:publish --provider="MicroSpaceless\Providers\IcalServiceProvider" --tag=config
-```
-
 ### Migrations
 
 Package does not require any migrations
