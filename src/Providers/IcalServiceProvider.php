@@ -4,7 +4,7 @@ namespace MicroSpaceless\Ical\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class ICSServiceProvider extends ServiceProvider
+class IcalServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
