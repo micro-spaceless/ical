@@ -1,6 +1,6 @@
 # Ical
 
-Laravel warraper for the [micro-spaceless/ical](https://github.com/micro-spaceless/ical) package that offers a abstraction layer for creating iCalendars.
+Want to create online calendars so that you can display them on an iPhone's calendar app or in Google Calendar? This can be done by generating calendars in the iCalendar format (RFC 5545), a textual format that can be loaded by different applications.
 
 ## Installation
 
