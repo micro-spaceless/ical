@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Package\Ical\Property;
+namespace MicroSpaceless\Ical\Property;
 
 use DateTime;
 

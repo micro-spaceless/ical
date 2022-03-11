@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Package\Ical\Component;
+namespace MicroSpaceless\Ical\Component;
 
-use App\Package\Ical\Traits\OutputAware;
-use App\Package\Ical\Property\Text;
-use App\Package\Ical\Property\PropertyCollectionInterface;
-use App\Package\Ical\Traits\PropertyCollection;
-use App\Package\Ical\Traits\ComponentCollection;
+use MicroSpaceless\Ical\Traits\OutputAware;
+use MicroSpaceless\Ical\Property\Text;
+use MicroSpaceless\Ical\Property\PropertyCollectionInterface;
+use MicroSpaceless\Ical\Traits\PropertyCollection;
+use MicroSpaceless\Ical\Traits\ComponentCollection;
 
 class Calendar extends Component implements ComponentInterface, ComponentCollectionInterface, PropertyCollectionInterface
 {
@@ -27,7 +27,7 @@ class Calendar extends Component implements ComponentInterface, ComponentCollect
 
     public function __construct($prodid = null, $version = '2.0')
     {
-        $this->prodid = $prodid ?? '-//edgar2031/Ical v1.0//EN';
+        $this->prodid = $prodid ?? '-//micro-spaceless/ical v1.0//EN';
         $this->version = $version;
     }
 

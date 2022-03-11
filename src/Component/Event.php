@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Package\Ical\Component;
+namespace MicroSpaceless\Ical\Component;
 
 
-use App\Package\Ical\Traits\OutputAware;
-use App\Package\Ical\Property\DateTimeStamp;
-use App\Package\Ical\Property\Text;
-use App\Package\Ical\Property\PropertyCollectionInterface;
-use App\Package\Ical\Traits\PropertyCollection;
-use App\Package\Ical\Traits\ComponentCollection;
+use MicroSpaceless\Ical\Traits\OutputAware;
+use MicroSpaceless\Ical\Property\DateTimeStamp;
+use MicroSpaceless\Ical\Property\Text;
+use MicroSpaceless\Ical\Property\PropertyCollectionInterface;
+use MicroSpaceless\Ical\Traits\PropertyCollection;
+use MicroSpaceless\Ical\Traits\ComponentCollection;
 use DateTime;
 use Exception;
 

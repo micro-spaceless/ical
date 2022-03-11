@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Package\Ical\Traits;
+namespace MicroSpaceless\Ical\Traits;
 
-use App\Package\Ical\Output\Output;
+use MicroSpaceless\Ical\Output\Output;
 
 trait OutputAware
 {

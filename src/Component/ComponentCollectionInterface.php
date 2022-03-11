@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Package\Ical\Component;
+namespace MicroSpaceless\Ical\Component;
 
 interface ComponentCollectionInterface
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Package\Ical\Traits;
+namespace MicroSpaceless\Ical\Traits;
 
-use App\Package\Ical\Component\ComponentInterface;
+use MicroSpaceless\Ical\Component\ComponentInterface;
 
 trait ComponentCollection
 {

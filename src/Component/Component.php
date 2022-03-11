@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Package\Ical\Component;
+namespace MicroSpaceless\Ical\Component;
 
-use App\Package\Ical\Property\PropertyCollectionInterface;
-use App\Package\Ical\Property\Text;
+use MicroSpaceless\Ical\Property\PropertyCollectionInterface;
+use MicroSpaceless\Ical\Property\Text;
 
 abstract class Component implements ComponentInterface
 {

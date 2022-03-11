@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Package\Ical\Traits;
+namespace MicroSpaceless\Ical\Traits;
 
-use App\Package\Ical\Property\PropertyInterface;
+use MicroSpaceless\Ical\Property\PropertyInterface;
 
 trait PropertyCollection
 {

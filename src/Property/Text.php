@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Package\Ical\Property;
+namespace MicroSpaceless\Ical\Property;
 
 class Text implements PropertyInterface
 {

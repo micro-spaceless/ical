@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Package\Ical;
+namespace MicroSpaceless\Ical;
 
-use App\Package\Ical\Component\Calendar;
-use App\Package\Ical\Output\OutputAwareInterface;
-use App\Package\Ical\Traits\OutputAware;
-use App\Package\Ical\Output\ToIcalInterface;
+use MicroSpaceless\Ical\Component\Calendar;
+use MicroSpaceless\Ical\Output\OutputAwareInterface;
+use MicroSpaceless\Ical\Traits\OutputAware;
+use MicroSpaceless\Ical\Output\ToIcalInterface;
 
 class Ical implements OutputAwareInterface, ToIcalInterface
 {

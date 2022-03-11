@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Package\Ical\Output;
+namespace MicroSpaceless\Ical\Output;
 
 class Output
 {

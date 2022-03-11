@@ -1,0 +1,47 @@
+{
+    "name": "micro-spaceless/ical",
+    "description": "Build calendars in the iCalendar format",
+    "homepage": "https://github.com/micro-spaceless/ical",
+    "keywords": [
+        "ical",
+        "php calendar",
+        "icalendar",
+        "ics",
+        "calendar",
+        "laravel"
+    ],    
+    "require": {
+        "php": "^7.4",
+        "ext-mbstring": "^7.4",
+        "nesbot/carbon": "^2.57",
+        "illuminate/support": "^8.83"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.1",
+        "ext-json": "^7.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edgar Poghosyan",
+            "email": "ed.arm.2000@gmail.com",
+            "homepage": "https://github.com/micro-spaceless",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MicroSpaceless\\Ical\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MicroSpaceless\\Ical\\Providers\\IcalServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
